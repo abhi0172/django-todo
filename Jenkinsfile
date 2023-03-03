@@ -13,4 +13,5 @@ pipeline {
 				  sh 'sudo docker run -dit -p 8000:8000  abhishek0322/todo:$BUILD_TAG'
 				}
 			}
-				
+		}	
+	}
